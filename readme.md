@@ -1,11 +1,8 @@
-<p align="center"><img src="https://laravel.com/assets/img/components/logo-passport.svg"></p>
+# Laravel Passport (Client UUID)
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/passport"><img src="https://travis-ci.org/laravel/passport.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/passport"><img src="https://poser.pugx.org/laravel/passport/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/passport"><img src="https://poser.pugx.org/laravel/passport/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/passport"><img src="https://poser.pugx.org/laravel/passport/license.svg" alt="License"></a>
-</p>
+## Fork Details
+
+This is a fork of [laravel/passport](https://github.com/laravel/passport) where the oauth_client.id, client_id foreign keys, and user_id foreign keys has been converted to the UUID datatype.
 
 ## Introduction
 

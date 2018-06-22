@@ -3,9 +3,12 @@
 namespace Laravel\Passport;
 
 use Illuminate\Database\Eloquent\Model;
+use BenBjurstrom\EloquentPostgresUuids\HasUuid;
 
 class Client extends Model
 {
+    use HasUuid;
+
     /**
      * The database table used by the model.
      *
