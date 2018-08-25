@@ -14,8 +14,8 @@ class CreateOauthClientsTable extends Migration
     public function up()
     {
         Schema::create('oauth_clients', function (Blueprint $table) {
-            $table->increments('id');
-            $table->integer('user_id')->index()->nullable();
+            $table->uuid('id')->primary();
+            $table->uuid('user_id')->index()->nullable();
             $table->string('name');
             $table->string('secret', 100);
             $table->text('redirect');
@@ -33,6 +33,6 @@ class CreateOauthClientsTable extends Migration
      */
     public function down()
     {
-        Schema::drop('oauth_clients');
+        Schema::dropIfExists('oauth_clients');
     }
 }
