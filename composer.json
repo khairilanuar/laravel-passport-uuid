@@ -1,11 +1,11 @@
 {
-    "name": "laravel/passport",
-    "description": "Laravel Passport provides OAuth2 server support to Laravel.",
-    "keywords": ["laravel", "passport", "oauth"],
+    "name": "khairilanuar/laravel-passport-uuid",
+    "description": "UUID support for Laravel Passport",
+    "keywords": ["laravel", "passport", "oauth", "uuid"],
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/laravel/passport/issues",
-        "source": "https://github.com/laravel/passport"
+        "issues": "https://github.com/khairilanuar/laravel-passport-uuid/issues",
+        "source": "https://github.com/khairilanuar/laravel-passport-uuid"
     },
     "authors": [
         {
